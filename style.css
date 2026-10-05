@@ -1,0 +1,52 @@
+body{
+               background-image: url("flower.jfif");
+               background-size: cover;
+               background-position: center;
+               background-repeat: no-repeat;
+               color: white;
+}
+.first-container{
+               margin: 0 40% 0 40%;
+               text-align: center;
+               display: flex;
+               flex-direction: row;
+               gap: 30%;
+}
+.display{
+               text-align: center;
+               font-size: 40px;
+}
+.calc-header{
+               text-align: center;
+}
+.calc-header h1{
+               font-size: 24px;
+               margin-bottom: 8px;
+}
+.calc-header p{
+               font-size: 14px;
+               line-height: 1.4;
+}
+
+.calc-footer{
+               text-align: center;
+               font-size: 12px;
+               border-top: 1px solid;
+               padding-top: 10px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 616px) {
+               .first-container{
+                              text-align: center;
+                              margin: 0 20% 0 20%;
+               }
+               .display{
+                              text-align: center;
+               }
+}
